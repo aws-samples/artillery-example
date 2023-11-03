@@ -1,0 +1,11 @@
+---
+config:
+  target: 'Replace this with your URL'
+  phases:
+    - duration: 120
+      arrivalRate: 20
+      name: Sustained peak load
+scenarios:
+  - flow:
+      - get:
+          url: "/lambda?rank={{ $randomNumber(1, 570) }}"

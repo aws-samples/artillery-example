@@ -1,11 +1,10 @@
-## My Project
+# artillery-example
 
-TODO: Fill this README out!
+# Install Artillery
+npm install -g artillery@latest artillery-pro@latest
 
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+# Run a load test
+artillery run ./load_test_for_15mins.yaml
 
 ## Security
 
@@ -14,4 +13,3 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 ## License
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
-

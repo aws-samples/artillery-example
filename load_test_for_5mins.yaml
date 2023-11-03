@@ -1,0 +1,10 @@
+config:
+  target: 'Replace this with your URL'
+  phases:
+    - duration: 300
+      arrivalRate: 5
+      name: CodeGuru Profiler test
+scenarios:
+    - flow:
+        - get:
+            url: "/lambda?rank={{ $randomNumber(1, 570) }}"
